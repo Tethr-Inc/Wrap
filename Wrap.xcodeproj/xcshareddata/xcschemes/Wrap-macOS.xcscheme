@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52D6DA0E1BF000BD002C0205"
                BuildableName = "Wrap.framework"
-               BlueprintName = "Wrap-OSX"
+               BlueprintName = "Wrap-macOS"
                ReferencedContainer = "container:Wrap.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52D6D9851BEFF229002C0205"
-               BuildableName = "Wrap.xctest"
-               BlueprintName = "WrapTests"
+               BlueprintIdentifier = "52B84B651DA151D900A7F4E7"
+               BuildableName = "WrapTests-macOS.xctest"
+               BlueprintName = "WrapTests-macOS"
                ReferencedContainer = "container:Wrap.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52D6DA0E1BF000BD002C0205"
             BuildableName = "Wrap.framework"
-            BlueprintName = "Wrap-OSX"
+            BlueprintName = "Wrap-macOS"
             ReferencedContainer = "container:Wrap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,7 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52D6DA0E1BF000BD002C0205"
             BuildableName = "Wrap.framework"
-            BlueprintName = "Wrap-OSX"
+            BlueprintName = "Wrap-macOS"
             ReferencedContainer = "container:Wrap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,7 +84,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52D6DA0E1BF000BD002C0205"
             BuildableName = "Wrap.framework"
-            BlueprintName = "Wrap-OSX"
+            BlueprintName = "Wrap-macOS"
             ReferencedContainer = "container:Wrap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

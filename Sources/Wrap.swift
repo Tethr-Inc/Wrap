@@ -26,6 +26,7 @@
  */
 
 import Foundation
+import CoreData
 
 /// Type alias defining what type of Dictionary that Wrap produces
 public typealias WrappedDictionary = [String : Any]
@@ -365,6 +366,17 @@ extension NSDate: WrappableDate {
     public func wrap(dateFormatter: DateFormatter) -> String {
         return dateFormatter.string(from: self as Date)
     }
+}
+
+/// Extension making NSManagedObject wrappable
+extension NSManagedObject: WrapCustomizable {
+
+	public func wrap(context: Any?, dateFormatter: DateFormatter?) -> Any? {
+		let keys = [String](entity.attributesByName.keys)
+		let dict: WrappedDictionary = dictionaryWithValues(forKeys: keys)
+		
+		return try? Wrapper(context: context, dateFormatter: dateFormatter).wrap(dictionary: dict)
+	}
 }
 
 // MARK: - Private
